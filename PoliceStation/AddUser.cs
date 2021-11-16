@@ -38,7 +38,7 @@ namespace PoliceStation
 
             if(command.ExecuteNonQuery() == 1)
             {
-                MessageBox.Show("Аккаунт создан");
+                MessageBox.Show("Аккаунт успешно создан");
             }
             else
             {
