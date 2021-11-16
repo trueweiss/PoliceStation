@@ -46,7 +46,7 @@ namespace PoliceStation
             }
             conn.Close();
             // Abasifd
-
+            MessageBox.Show("Здарова");
 
         }
     }
