@@ -96,6 +96,7 @@ namespace PoliceStation
             this.Controls.Add(this.textBox1);
             this.Name = "AddUser";
             this.Text = "AddUser";
+            this.Load += new System.EventHandler(this.AddUser_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

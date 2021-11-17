@@ -10,17 +10,16 @@ using System.Windows.Forms;
 
 namespace PoliceStation
 {
-    public partial class Profile : Form
+    public partial class AllStatements : Form
     {
-        public Profile()
+        public AllStatements()
         {
             InitializeComponent();
         }
 
-        private void Profile_Load(object sender, EventArgs e)
+        private void AllStatements_Load(object sender, EventArgs e)
         {
 
         }
-
     }
 }

@@ -10,17 +10,21 @@ using System.Windows.Forms;
 
 namespace PoliceStation
 {
-    public partial class Profile : Form
+    public partial class Statement : Form
     {
-        public Profile()
+        public Statement()
         {
             InitializeComponent();
         }
 
-        private void Profile_Load(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

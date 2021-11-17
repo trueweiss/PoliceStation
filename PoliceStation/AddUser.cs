@@ -45,8 +45,11 @@ namespace PoliceStation
                 MessageBox.Show("Ошибка при создании аккаунта");
             }
             conn.Close();
-            // Abasifd
-            MessageBox.Show("Здарова qq");
+
+        }
+
+        private void AddUser_Load(object sender, EventArgs e)
+        {
 
         }
     }

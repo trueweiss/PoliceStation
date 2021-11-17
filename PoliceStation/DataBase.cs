@@ -14,8 +14,8 @@ namespace SqlConn
 GetDBConnection(string host, int port, string database, string username, string password)
         {
             // Connection String.
-            String connString = "Server=" + host + ";Database=" + database
-            + ";port=" + port + ";User Id=" + username + ";password=" + password;
+            String connString = "Server=" + host + "; port=" + port + "; Database=" + database
+            + ";User Id=" + username + ";password=" + password;
 
             MySqlConnection conn = new MySqlConnection(connString);
 
