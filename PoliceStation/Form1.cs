@@ -57,7 +57,7 @@ namespace PoliceStation
 
                 if (table.Rows.Count > 0)
                 {
-                    MessageBox.Show("Авторизация прошла успешно.");
+                    MessageBox.Show("Подтверждение личности выполнено успешно");
                     ActiveForm.Hide();
                     Profile profile = new Profile();
                     profile.Show();
@@ -65,7 +65,7 @@ namespace PoliceStation
 
 
                 else
-                    MessageBox.Show("Ошибка авторизации.");
+                    MessageBox.Show("Ошибка авторизации");
                 conn.Close();
             }
 
@@ -100,6 +100,14 @@ namespace PoliceStation
                 
         }
 
-     
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

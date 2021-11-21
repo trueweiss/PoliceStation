@@ -94,6 +94,7 @@ namespace PoliceStation
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "AddUser";
             this.Text = "AddUser";
             this.Load += new System.EventHandler(this.AddUser_Load);

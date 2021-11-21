@@ -60,6 +60,7 @@ namespace PoliceStation
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.AddUser);
             this.Controls.Add(this.dataGridView1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Admin";
             this.Text = "Admin";
             this.Load += new System.EventHandler(this.Admin_Load);

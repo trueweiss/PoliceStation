@@ -22,5 +22,11 @@ namespace PoliceStation
 
         }
 
+        private void Application_Click(object sender, EventArgs e)
+        {
+            ActiveForm.Hide();
+            Statement statement = new Statement();
+            statement.Show();
+        }
     }
 }

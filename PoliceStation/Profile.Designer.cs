@@ -44,6 +44,7 @@ namespace PoliceStation
             this.Application.TabIndex = 0;
             this.Application.Text = "Добавить заявление";
             this.Application.UseVisualStyleBackColor = true;
+            this.Application.Click += new System.EventHandler(this.Application_Click);
             // 
             // Employees
             // 
@@ -91,6 +92,7 @@ namespace PoliceStation
             this.Controls.Add(this.Arrest);
             this.Controls.Add(this.Employees);
             this.Controls.Add(this.Application);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Profile";
             this.Text = "Profile";
             this.Load += new System.EventHandler(this.Profile_Load);

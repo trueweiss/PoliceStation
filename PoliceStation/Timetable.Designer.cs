@@ -1,7 +1,7 @@
 ﻿
 namespace PoliceStation
 {
-    partial class AllStatements
+    partial class Timetable
     {
         /// <summary>
         /// Required designer variable.
@@ -31,15 +31,14 @@ namespace PoliceStation
         {
             this.SuspendLayout();
             // 
-            // AllStatements
+            // Timetable
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "AllStatements";
-            this.Text = "AllStatements";
-            this.Load += new System.EventHandler(this.AllStatements_Load);
+            this.Name = "Timetable";
+            this.Text = "Timetable";
             this.ResumeLayout(false);
 
         }
