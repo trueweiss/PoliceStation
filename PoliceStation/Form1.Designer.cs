@@ -50,6 +50,7 @@ namespace PoliceStation
             this.ButtonLogin.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
             this.ButtonLogin.FlatAppearance.BorderSize = 2;
             this.ButtonLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ButtonLogin.Font = new System.Drawing.Font("Bauhaus 93", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ButtonLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ButtonLogin.Location = new System.Drawing.Point(222, 180);
             this.ButtonLogin.Name = "ButtonLogin";
@@ -61,10 +62,10 @@ namespace PoliceStation
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(183, 81);
-            this.textBox1.Multiline = true;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox1.Location = new System.Drawing.Point(183, 84);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(178, 27);
+            this.textBox1.Size = new System.Drawing.Size(178, 26);
             this.textBox1.TabIndex = 1;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             this.textBox1.Enter += new System.EventHandler(this.textBox1_Enter);
@@ -72,10 +73,10 @@ namespace PoliceStation
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(184, 126);
-            this.textBox2.Multiline = true;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox2.Location = new System.Drawing.Point(184, 127);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(178, 28);
+            this.textBox2.Size = new System.Drawing.Size(178, 26);
             this.textBox2.TabIndex = 2;
             this.textBox2.UseSystemPasswordChar = true;
             this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
