@@ -139,8 +139,9 @@ namespace PoliceStation
             this.AllStatement.Name = "AllStatement";
             this.AllStatement.Size = new System.Drawing.Size(221, 23);
             this.AllStatement.TabIndex = 10;
-            this.AllStatement.Text = "Список заявлений";
+            this.AllStatement.Text = "Отправить";
             this.AllStatement.UseVisualStyleBackColor = true;
+            this.AllStatement.Click += new System.EventHandler(this.AllStatement_Click);
             // 
             // textBox6
             // 
@@ -240,7 +241,8 @@ namespace PoliceStation
             this.Controls.Add(this.textBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Statement";
-            this.Text = "Statement";
+            this.Text = "Добавить заявление";
+            this.Load += new System.EventHandler(this.Statement_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

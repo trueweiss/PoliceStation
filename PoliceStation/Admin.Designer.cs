@@ -37,7 +37,7 @@ namespace PoliceStation
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(107, 36);
+            this.dataGridView1.Location = new System.Drawing.Point(46, 191);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(681, 132);
             this.dataGridView1.TabIndex = 0;
@@ -45,7 +45,7 @@ namespace PoliceStation
             // 
             // AddUser
             // 
-            this.AddUser.Location = new System.Drawing.Point(-1, 183);
+            this.AddUser.Location = new System.Drawing.Point(67, 47);
             this.AddUser.Name = "AddUser";
             this.AddUser.Size = new System.Drawing.Size(197, 60);
             this.AddUser.TabIndex = 1;
@@ -57,12 +57,13 @@ namespace PoliceStation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.AddUser);
             this.Controls.Add(this.dataGridView1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Admin";
-            this.Text = "Admin";
+            this.Text = "Панель администратора";
             this.Load += new System.EventHandler(this.Admin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

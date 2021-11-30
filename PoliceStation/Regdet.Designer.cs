@@ -185,13 +185,6 @@ namespace PoliceStation
             this.textBox8.Size = new System.Drawing.Size(329, 20);
             this.textBox8.TabIndex = 16;
             // 
-            // label10
-            // 
-     
-            // 
-            // Enter
-
-            // 
             // Regdet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -215,7 +208,7 @@ namespace PoliceStation
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Name = "Regdet";
-            this.Text = "Regdet";
+            this.Text = "Регистрация задержаний";
             this.ResumeLayout(false);
             this.PerformLayout();
 

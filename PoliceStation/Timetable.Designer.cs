@@ -38,7 +38,7 @@ namespace PoliceStation
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Timetable";
-            this.Text = "Timetable";
+            this.Text = "График работы";
             this.ResumeLayout(false);
 
         }

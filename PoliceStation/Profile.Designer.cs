@@ -38,12 +38,14 @@ namespace PoliceStation
             // 
             // Application
             // 
+            this.Application.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Application.ForeColor = System.Drawing.Color.Black;
             this.Application.Location = new System.Drawing.Point(3, 3);
             this.Application.Name = "Application";
             this.Application.Size = new System.Drawing.Size(190, 91);
             this.Application.TabIndex = 0;
             this.Application.Text = "Добавить заявление";
-            this.Application.UseVisualStyleBackColor = true;
+            this.Application.UseVisualStyleBackColor = false;
             this.Application.Click += new System.EventHandler(this.Application_Click);
             // 
             // Employees
@@ -86,6 +88,7 @@ namespace PoliceStation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(467, 450);
             this.Controls.Add(this.Timetable);
             this.Controls.Add(this.Delay);
@@ -94,7 +97,7 @@ namespace PoliceStation
             this.Controls.Add(this.Application);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Profile";
-            this.Text = "Profile";
+            this.Text = "Главная";
             this.Load += new System.EventHandler(this.Profile_Load);
             this.ResumeLayout(false);
 
