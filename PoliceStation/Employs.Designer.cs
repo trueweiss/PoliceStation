@@ -45,7 +45,7 @@ namespace PoliceStation
             this.dataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.GridColor = System.Drawing.SystemColors.MenuHighlight;
-            this.dataGridView1.Location = new System.Drawing.Point(123, 221);
+            this.dataGridView1.Location = new System.Drawing.Point(93, 92);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(594, 182);
             this.dataGridView1.TabIndex = 0;
@@ -62,10 +62,11 @@ namespace PoliceStation
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label1.Location = new System.Drawing.Point(312, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(217, 25);
+            this.label1.Size = new System.Drawing.Size(202, 26);
             this.label1.TabIndex = 0;
             this.label1.Text = "Список сотрудников";
             // 

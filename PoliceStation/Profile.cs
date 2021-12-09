@@ -28,5 +28,31 @@ namespace PoliceStation
             Statement statement = new Statement();
             statement.Show();
         }
+
+        private void Arrest_Click(object sender, EventArgs e)
+        {
+            ActiveForm.Hide();
+            Regdet regdet = new Regdet();
+            regdet.Show();
+        }
+
+        private void Employees_Click(object sender, EventArgs e)
+        {
+            ActiveForm.Hide();
+            Employs employs = new Employs();
+            employs.Show();
+        }
+
+        private void Timetable_Click(object sender, EventArgs e)
+        {
+            ActiveForm.Hide();
+            Timetable timetable = new Timetable();
+            timetable.Show();
+        }
+
+        private void Delay_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

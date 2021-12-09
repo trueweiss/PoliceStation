@@ -63,7 +63,7 @@ namespace PoliceStation
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox1.Location = new System.Drawing.Point(183, 84);
+            this.textBox1.Location = new System.Drawing.Point(185, 84);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(178, 26);
             this.textBox1.TabIndex = 1;
@@ -74,7 +74,7 @@ namespace PoliceStation
             // textBox2
             // 
             this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox2.Location = new System.Drawing.Point(184, 127);
+            this.textBox2.Location = new System.Drawing.Point(186, 127);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(178, 26);
             this.textBox2.TabIndex = 2;
@@ -123,9 +123,9 @@ namespace PoliceStation
             // pictureBox2
             // 
             this.pictureBox2.Image = global::PoliceStation.Properties.Resources.shield;
-            this.pictureBox2.Location = new System.Drawing.Point(151, 122);
+            this.pictureBox2.Location = new System.Drawing.Point(153, 124);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(31, 35);
+            this.pictureBox2.Size = new System.Drawing.Size(31, 41);
             this.pictureBox2.TabIndex = 5;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
@@ -133,9 +133,9 @@ namespace PoliceStation
             // pictureBox1
             // 
             this.pictureBox1.Image = global::PoliceStation.Properties.Resources.policeman__2_;
-            this.pictureBox1.Location = new System.Drawing.Point(150, 77);
+            this.pictureBox1.Location = new System.Drawing.Point(152, 76);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(31, 32);
+            this.pictureBox1.Size = new System.Drawing.Size(32, 34);
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
