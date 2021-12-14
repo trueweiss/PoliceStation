@@ -95,7 +95,7 @@ namespace PoliceStation
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label3.Location = new System.Drawing.Point(305, 19);
+            this.label3.Location = new System.Drawing.Point(316, 19);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(166, 20);
             this.label3.TabIndex = 4;
@@ -243,6 +243,7 @@ namespace PoliceStation
             this.button1.TabIndex = 19;
             this.button1.Text = "Отправить";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 

@@ -39,6 +39,7 @@ namespace PoliceStation
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.AllStatements = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,10 +60,12 @@ namespace PoliceStation
             // Employees
             // 
             this.Employees.BackColor = System.Drawing.Color.DarkCyan;
-            this.Employees.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Employees.Location = new System.Drawing.Point(237, 175);
+            this.Employees.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
+            this.Employees.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Employees.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Employees.Location = new System.Drawing.Point(229, 175);
             this.Employees.Name = "Employees";
-            this.Employees.Size = new System.Drawing.Size(182, 98);
+            this.Employees.Size = new System.Drawing.Size(190, 98);
             this.Employees.TabIndex = 2;
             this.Employees.Text = "Список сотрудников";
             this.Employees.UseVisualStyleBackColor = false;
@@ -72,7 +75,7 @@ namespace PoliceStation
             // 
             this.Arrest.BackColor = System.Drawing.Color.DarkCyan;
             this.Arrest.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
-            this.Arrest.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Arrest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Arrest.Location = new System.Drawing.Point(12, 175);
             this.Arrest.Name = "Arrest";
             this.Arrest.Size = new System.Drawing.Size(190, 98);
@@ -85,7 +88,7 @@ namespace PoliceStation
             // 
             this.Delay.BackColor = System.Drawing.Color.DarkCyan;
             this.Delay.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
-            this.Delay.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Delay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Delay.Location = new System.Drawing.Point(12, 279);
             this.Delay.Name = "Delay";
             this.Delay.Size = new System.Drawing.Size(190, 83);
@@ -99,9 +102,9 @@ namespace PoliceStation
             this.Timetable.BackColor = System.Drawing.Color.DarkCyan;
             this.Timetable.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
             this.Timetable.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Timetable.Location = new System.Drawing.Point(237, 78);
+            this.Timetable.Location = new System.Drawing.Point(229, 78);
             this.Timetable.Name = "Timetable";
-            this.Timetable.Size = new System.Drawing.Size(182, 91);
+            this.Timetable.Size = new System.Drawing.Size(190, 91);
             this.Timetable.TabIndex = 5;
             this.Timetable.Text = "График работы";
             this.Timetable.UseVisualStyleBackColor = false;
@@ -169,12 +172,26 @@ namespace PoliceStation
             this.label1.TabIndex = 0;
             this.label1.Text = "To protect and to serve";
             // 
+            // AllStatements
+            // 
+            this.AllStatements.BackColor = System.Drawing.Color.DarkCyan;
+            this.AllStatements.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
+            this.AllStatements.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AllStatements.Location = new System.Drawing.Point(229, 279);
+            this.AllStatements.Name = "AllStatements";
+            this.AllStatements.Size = new System.Drawing.Size(190, 83);
+            this.AllStatements.TabIndex = 7;
+            this.AllStatements.Text = "Список заявлений";
+            this.AllStatements.UseVisualStyleBackColor = false;
+            this.AllStatements.Click += new System.EventHandler(this.AllStatements_Click);
+            // 
             // Profile
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(435, 450);
+            this.Controls.Add(this.AllStatements);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.Timetable);
             this.Controls.Add(this.Delay);
@@ -204,5 +221,6 @@ namespace PoliceStation
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button AllStatements;
     }
 }

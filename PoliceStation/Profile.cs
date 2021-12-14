@@ -54,5 +54,12 @@ namespace PoliceStation
         {
 
         }
+
+        private void AllStatements_Click(object sender, EventArgs e)
+        {
+            ActiveForm.Hide();
+            AllStatements allst = new AllStatements();
+            allst.Show();
+        }
     }
 }

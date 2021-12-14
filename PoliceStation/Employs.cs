@@ -37,8 +37,15 @@ namespace PoliceStation
             }
             conn.Close();
             dataGridView1.DataSource = arrayList;
+            dataGridView1.Columns[0].HeaderCell.Value = "Код сотрудника";
+            dataGridView1.Columns[1].HeaderCell.Value = "ФИО";
+            dataGridView1.Columns[2].HeaderCell.Value = "Звание";
+            dataGridView1.Columns[3].HeaderCell.Value = "Должность";
         }
 
-   
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
