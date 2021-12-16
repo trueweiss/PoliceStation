@@ -51,6 +51,13 @@ namespace PoliceStation
             adduser.Show();
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ActiveForm.Hide();
+            Form1 frm = new Form1();
+            frm.Show();
+        }
+
         //private void AddUser_Click(object sender, EventArgs e)
         //{
         //    DataBase database = new DataBase();

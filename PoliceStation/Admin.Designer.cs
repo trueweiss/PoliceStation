@@ -34,14 +34,16 @@ namespace PoliceStation
             this.AddUser = new System.Windows.Forms.Button();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.Teal;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(46, 191);
+            this.dataGridView1.Location = new System.Drawing.Point(12, 127);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(681, 132);
             this.dataGridView1.TabIndex = 0;
@@ -49,7 +51,7 @@ namespace PoliceStation
             // 
             // AddUser
             // 
-            this.AddUser.Location = new System.Drawing.Point(67, 47);
+            this.AddUser.Location = new System.Drawing.Point(12, 47);
             this.AddUser.Name = "AddUser";
             this.AddUser.Size = new System.Drawing.Size(197, 60);
             this.AddUser.TabIndex = 1;
@@ -76,12 +78,23 @@ namespace PoliceStation
             this.toolStripButton1.Size = new System.Drawing.Size(65, 22);
             this.toolStripButton1.Text = "Обновить";
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(261, 415);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(221, 23);
+            this.button2.TabIndex = 21;
+            this.button2.Text = "Вернуться";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.AddUser);
             this.Controls.Add(this.dataGridView1);
@@ -103,5 +116,6 @@ namespace PoliceStation
         private System.Windows.Forms.Button AddUser;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripButton toolStripButton1;
+        private System.Windows.Forms.Button button2;
     }
 }

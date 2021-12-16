@@ -52,5 +52,19 @@ namespace PoliceStation
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ActiveForm.Hide();
+            Profile profile = new Profile();
+            profile.Show();
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            ActiveForm.Hide();
+            Admin adm = new Admin();
+            adm.Show();
+        }
     }
 }

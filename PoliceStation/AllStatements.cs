@@ -34,9 +34,18 @@ namespace PoliceStation
                 {
                     arrayList.Add(result);
                 }
-                conn.Close();
-                dataGridView1.DataSource = arrayList;
             }
+            conn.Close();
+            dataGridView1.DataSource = arrayList;
+            dataGridView1.Columns[0].HeaderCell.Value = "Номер заявления";
+            dataGridView1.Columns[1].HeaderCell.Value = "ФИО заявителя";
+            dataGridView1.Columns[2].HeaderCell.Value = "Место работы";
+            dataGridView1.Columns[3].HeaderCell.Value = "Телефон";
+            dataGridView1.Columns[4].HeaderCell.Value = "Место регистрации";
+            dataGridView1.Columns[5].HeaderCell.Value = "ФИО обвиняемого";
+            dataGridView1.Columns[6].HeaderCell.Value = "Статья";
+            dataGridView1.Columns[7].HeaderCell.Value = "Проверил(а)";
+            dataGridView1.Columns[8].HeaderCell.Value = "Статус";
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -47,6 +56,13 @@ namespace PoliceStation
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ActiveForm.Hide();
+            Profile profile = new Profile();
+            profile.Show();
         }
     }
 }

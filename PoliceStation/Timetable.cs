@@ -21,5 +21,12 @@ namespace PoliceStation
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ActiveForm.Hide();
+            Profile profile = new Profile();
+            profile.Show();
+        }
     }
 }
