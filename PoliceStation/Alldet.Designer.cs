@@ -37,7 +37,7 @@ namespace PoliceStation
             // 
             this.dataGridView1.BackgroundColor = System.Drawing.Color.Teal;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(36, 101);
+            this.dataGridView1.Location = new System.Drawing.Point(14, 16);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(707, 209);
             this.dataGridView1.TabIndex = 1;

@@ -58,6 +58,13 @@ namespace PoliceStation
             frm.Show();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ActiveForm.Hide();
+            Simulation sim = new Simulation();
+            sim.Show();
+        }
+
         //private void AddUser_Click(object sender, EventArgs e)
         //{
         //    DataBase database = new DataBase();
