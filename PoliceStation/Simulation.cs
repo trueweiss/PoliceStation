@@ -118,5 +118,12 @@ namespace PoliceStation
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ActiveForm.Hide();
+            Admin adm = new Admin();
+            adm.Show();
+        }
     }
 }

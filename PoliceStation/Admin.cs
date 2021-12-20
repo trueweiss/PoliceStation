@@ -65,6 +65,25 @@ namespace PoliceStation
             sim.Show();
         }
 
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+
+            ArrayList arrayList = new ArrayList();
+            MySqlConnection conn = DataBase.GetDBConnection();
+            conn.Open();
+            MySqlCommand command = new MySqlCommand("SELECT * FROM `Employees` ", conn);
+            MySqlDataReader reader = command.ExecuteReader();
+            if (reader.HasRows)
+            {
+                foreach (DbDataRecord result in reader)
+                {
+                    arrayList.Add(result);
+                }
+            }
+            conn.Close();
+            dataGridView1.DataSource = arrayList;
+        }
+
         //private void AddUser_Click(object sender, EventArgs e)
         //{
         //    DataBase database = new DataBase();
