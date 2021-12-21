@@ -30,11 +30,6 @@ namespace PoliceStation
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Profile));
-            this.Application = new System.Windows.Forms.Button();
-            this.Employees = new System.Windows.Forms.Button();
-            this.Arrest = new System.Windows.Forms.Button();
-            this.Delay = new System.Windows.Forms.Button();
-            this.Timetable = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -44,76 +39,14 @@ namespace PoliceStation
             this.panel2 = new System.Windows.Forms.Panel();
             this.Forms = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
+            this.Delay = new System.Windows.Forms.Button();
+            this.Application = new System.Windows.Forms.Button();
+            this.Employees = new System.Windows.Forms.Button();
+            this.Timetable = new System.Windows.Forms.Button();
+            this.Arrest = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // Application
-            // 
-            this.Application.BackColor = System.Drawing.Color.DarkCyan;
-            this.Application.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
-            this.Application.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Application.ForeColor = System.Drawing.Color.Black;
-            this.Application.Location = new System.Drawing.Point(12, 15);
-            this.Application.Name = "Application";
-            this.Application.Size = new System.Drawing.Size(190, 46);
-            this.Application.TabIndex = 0;
-            this.Application.Text = "Добавить заявление";
-            this.Application.UseVisualStyleBackColor = false;
-            this.Application.Click += new System.EventHandler(this.Application_Click);
-            // 
-            // Employees
-            // 
-            this.Employees.BackColor = System.Drawing.Color.DarkCyan;
-            this.Employees.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
-            this.Employees.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Employees.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Employees.Location = new System.Drawing.Point(12, 119);
-            this.Employees.Name = "Employees";
-            this.Employees.Size = new System.Drawing.Size(190, 46);
-            this.Employees.TabIndex = 2;
-            this.Employees.Text = "Список сотрудников";
-            this.Employees.UseVisualStyleBackColor = false;
-            this.Employees.Click += new System.EventHandler(this.Employees_Click);
-            // 
-            // Arrest
-            // 
-            this.Arrest.BackColor = System.Drawing.Color.DarkCyan;
-            this.Arrest.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
-            this.Arrest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Arrest.Location = new System.Drawing.Point(12, 67);
-            this.Arrest.Name = "Arrest";
-            this.Arrest.Size = new System.Drawing.Size(190, 46);
-            this.Arrest.TabIndex = 3;
-            this.Arrest.Text = "Регистрация задержания";
-            this.Arrest.UseVisualStyleBackColor = false;
-            this.Arrest.Click += new System.EventHandler(this.Arrest_Click);
-            // 
-            // Delay
-            // 
-            this.Delay.BackColor = System.Drawing.Color.DarkCyan;
-            this.Delay.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
-            this.Delay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Delay.Location = new System.Drawing.Point(12, 223);
-            this.Delay.Name = "Delay";
-            this.Delay.Size = new System.Drawing.Size(190, 46);
-            this.Delay.TabIndex = 4;
-            this.Delay.Text = "Список задержанных";
-            this.Delay.UseVisualStyleBackColor = false;
-            this.Delay.Click += new System.EventHandler(this.Delay_Click);
-            // 
-            // Timetable
-            // 
-            this.Timetable.BackColor = System.Drawing.Color.DarkCyan;
-            this.Timetable.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
-            this.Timetable.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Timetable.Location = new System.Drawing.Point(12, 171);
-            this.Timetable.Name = "Timetable";
-            this.Timetable.Size = new System.Drawing.Size(190, 46);
-            this.Timetable.TabIndex = 5;
-            this.Timetable.Text = "График работы";
-            this.Timetable.UseVisualStyleBackColor = false;
-            this.Timetable.Click += new System.EventHandler(this.Timetable_Click);
             // 
             // panel1
             // 
@@ -183,11 +116,13 @@ namespace PoliceStation
             // AllStatements
             // 
             this.AllStatements.BackColor = System.Drawing.Color.DarkCyan;
+            this.AllStatements.BackgroundImage = global::PoliceStation.Properties.Resources.premium_icon_timetable_2407932;
+            this.AllStatements.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.AllStatements.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
             this.AllStatements.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AllStatements.Location = new System.Drawing.Point(12, 275);
+            this.AllStatements.Location = new System.Drawing.Point(12, 225);
             this.AllStatements.Name = "AllStatements";
-            this.AllStatements.Size = new System.Drawing.Size(190, 46);
+            this.AllStatements.Size = new System.Drawing.Size(190, 33);
             this.AllStatements.TabIndex = 7;
             this.AllStatements.Text = "Список заявлений";
             this.AllStatements.UseVisualStyleBackColor = false;
@@ -219,6 +154,8 @@ namespace PoliceStation
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.DarkCyan;
+            this.button1.BackgroundImage = global::PoliceStation.Properties.Resources.previous;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(12, 469);
@@ -228,6 +165,84 @@ namespace PoliceStation
             this.button1.Text = "Окно авторизации";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // Delay
+            // 
+            this.Delay.BackColor = System.Drawing.Color.DarkCyan;
+            this.Delay.BackgroundImage = global::PoliceStation.Properties.Resources.handcuff;
+            this.Delay.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Delay.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
+            this.Delay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Delay.Location = new System.Drawing.Point(12, 181);
+            this.Delay.Name = "Delay";
+            this.Delay.Size = new System.Drawing.Size(190, 38);
+            this.Delay.TabIndex = 4;
+            this.Delay.Text = "Список задержанных";
+            this.Delay.UseVisualStyleBackColor = false;
+            this.Delay.Click += new System.EventHandler(this.Delay_Click);
+            // 
+            // Application
+            // 
+            this.Application.BackColor = System.Drawing.Color.DarkCyan;
+            this.Application.BackgroundImage = global::PoliceStation.Properties.Resources.plus;
+            this.Application.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Application.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
+            this.Application.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Application.ForeColor = System.Drawing.Color.Black;
+            this.Application.Location = new System.Drawing.Point(12, 15);
+            this.Application.Name = "Application";
+            this.Application.Size = new System.Drawing.Size(190, 36);
+            this.Application.TabIndex = 0;
+            this.Application.Text = "Добавить заявление";
+            this.Application.UseVisualStyleBackColor = false;
+            this.Application.Click += new System.EventHandler(this.Application_Click);
+            // 
+            // Employees
+            // 
+            this.Employees.BackColor = System.Drawing.Color.DarkCyan;
+            this.Employees.BackgroundImage = global::PoliceStation.Properties.Resources.employee;
+            this.Employees.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Employees.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
+            this.Employees.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Employees.ForeColor = System.Drawing.Color.Black;
+            this.Employees.Location = new System.Drawing.Point(12, 100);
+            this.Employees.Name = "Employees";
+            this.Employees.Size = new System.Drawing.Size(190, 36);
+            this.Employees.TabIndex = 2;
+            this.Employees.Text = "Список сотрудников";
+            this.Employees.UseVisualStyleBackColor = false;
+            this.Employees.Click += new System.EventHandler(this.Employees_Click);
+            // 
+            // Timetable
+            // 
+            this.Timetable.BackColor = System.Drawing.Color.DarkCyan;
+            this.Timetable.BackgroundImage = global::PoliceStation.Properties.Resources.clock;
+            this.Timetable.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Timetable.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
+            this.Timetable.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Timetable.Location = new System.Drawing.Point(12, 142);
+            this.Timetable.Name = "Timetable";
+            this.Timetable.Size = new System.Drawing.Size(190, 33);
+            this.Timetable.TabIndex = 5;
+            this.Timetable.Text = "График работы";
+            this.Timetable.UseVisualStyleBackColor = false;
+            this.Timetable.Click += new System.EventHandler(this.Timetable_Click);
+            // 
+            // Arrest
+            // 
+            this.Arrest.BackColor = System.Drawing.Color.DarkCyan;
+            this.Arrest.BackgroundImage = global::PoliceStation.Properties.Resources.free_icon_curriculum_vitae_345610;
+            this.Arrest.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.Arrest.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
+            this.Arrest.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Arrest.ForeColor = System.Drawing.Color.Black;
+            this.Arrest.Location = new System.Drawing.Point(12, 57);
+            this.Arrest.Name = "Arrest";
+            this.Arrest.Size = new System.Drawing.Size(190, 37);
+            this.Arrest.TabIndex = 3;
+            this.Arrest.Text = "      Регистрация задержания";
+            this.Arrest.UseVisualStyleBackColor = false;
+            this.Arrest.Click += new System.EventHandler(this.Arrest_Click);
             // 
             // Profile
             // 

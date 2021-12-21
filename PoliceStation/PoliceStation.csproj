@@ -190,5 +190,65 @@
   <ItemGroup>
     <None Include="Resources\1533130199_1.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\49543_7df002944486b9cafd539ef3bcc8146c.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trainingtrak_post.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Безымянный.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5f525db1a727317459bdfe15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-lists-3889403.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9-Exclusive-Tips-of-Time-Management-for-Police-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1221.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9-Exclusive-Tips-of-Time-Management-for-Police-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9-Exclusive-Tips-of-Time-Management-for-Police-12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-timetable-2407932.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-time-1292968.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-handcuff-6100028.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-handcuffs-123681.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\premium-icon-statement-4258362.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\handcuff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-curriculum-vitae-345610.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\previous.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
